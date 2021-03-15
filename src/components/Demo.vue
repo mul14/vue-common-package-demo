@@ -21,7 +21,7 @@ export default defineComponent({
   data(): ComponentData {
     return {
       title: "Demo Component",
-      isOpen: false,
+      isOpen: true,
     };
   },
 
