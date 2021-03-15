@@ -35,7 +35,7 @@ Replace `vue-app/src/App.vue` with this code
 <script>
 import { defineComponent } from 'vue'
 
-import Demo from 'vue-common-package-demo'
+import { Demo } from 'vue-common-package-demo'
 
 export default defineComponent({
   components: {
@@ -51,4 +51,6 @@ Run the vue-app
 yarn serve
 ```
 
-Try to click toggle button.
+Try to click toggle button. The warnings and errors will show up.
+
+![image](https://user-images.githubusercontent.com/113989/111115984-ee547380-8597-11eb-860c-988678396658.png)
